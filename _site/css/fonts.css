@@ -1,0 +1,29 @@
+.pacifico {
+  font-family: 'Pacifico', cursive; }
+
+.indieflower {
+  font-family: 'Indie Flower', cursive; }
+
+.fredericka {
+  font-family: 'Fredericka the Great', cursive; }
+
+.viga {
+  font-family: 'Viga', sans-serif; }
+
+.raleway {
+  font-family: 'Raleway', sans-serif; }
+
+.ibmplexmono {
+  font-family: 'IBM Plex Mono', monospace; }
+
+.text-primarylight {
+  color: #ceffed; }
+
+.text-primarydark {
+  color: #00af8c; }
+
+.text-shadowlight {
+  text-shadow: 0px 0px 5px #ceffed; }
+
+.text-shadowdark {
+  text-shadow: 0px 0px 5px #00af8c; }
