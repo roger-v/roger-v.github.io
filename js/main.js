@@ -23,3 +23,18 @@ function scrollTo(str) {
         scrollTop: $(str).offset().top - $('nav').height()
     }, 500);
 }
+
+$(window).scroll(function(e){
+  var aboutTop = $("#about").position().top;
+  var windowTop = $(window).scrollTop(); 
+  var introTop = $("#intro").position().top;
+  console.log("about top " + (aboutTop - windowTop));
+  console.log("intro top " + introTop);
+  if (aboutTop - windowTop <= introTop) {
+    $("#intro").css({"opacity":0});
+  }
+  else {
+    $("#intro").css({"opacity":1});
+  }
+  
+});
