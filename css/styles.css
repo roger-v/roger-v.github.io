@@ -29,8 +29,9 @@
   display: flex;
   align-items: center; }
 
-#projects img {
-  /* border-radius: 15%; */ }
+#projects img:hover {
+  /* border-radius: 15%; */
+  opacity: 0.9; }
 
 .roundedimg {
   /* border-radius: 15%; */ }
