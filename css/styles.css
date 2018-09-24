@@ -30,10 +30,10 @@
   align-items: center; }
 
 #projects img {
-  border-radius: 15%; }
+  /* border-radius: 15%; */ }
 
 .roundedimg {
-  border-radius: 15%; }
+  /* border-radius: 15%; */ }
 
 .desc {
   display: none; }
@@ -49,3 +49,11 @@
 
 .nav-link {
   cursor: pointer; }
+
+.parent-of-centered {
+  position: relative; }
+
+.centered-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
