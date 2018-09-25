@@ -65,3 +65,5 @@ $(window).scroll(function(e){
 });
 
 $("#project_view_container").hide();
+
+$(".carousel").carousel();
