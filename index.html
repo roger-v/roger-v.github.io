@@ -74,27 +74,30 @@
     
 <div id="home" class="row bg-darknavy parent-of-centered" style="height:100%;">
   <div id="intro" class="col-12 text-center centered-child" style="position:fixed;">
-    <img id="profileImg" class="img-fluid mx-auto d-block" src="../img/roger.png" style="border-radius:50%;">
+    <div class="mx-auto d-block" style="position:relative;width:248px;height:248px;border-radius:50%;background-color:#00af8c;overflow:hidden;">
+      <img id="profileImg" class="img-fluid mx-auto d-block p-3" src="../img/roger_transparent.png" style="position:relative;left:200px;">
+    </div>
+    
     <h1 class="text-primarylight viga text-shadowdark pt-2">
-      Hi, I'm Roger.
+      <span id="hi" style="opacity:0;">Hi,</span> <span id="imroger" style="opacity:0;">I'm Roger.</span>
     </h1>
-    <h3 class="text-primarydark raleway">
+    <h3 id="introtext" class="text-primarydark raleway" style="opacity:0;">
       <small>I like to build websites and mobile apps.</small>
     </h3>
-    <div class="py-3">
+    <div id="fadinglineintro" class="py-3" style="opacity:0;">
       <span class="fading_line"></span>
     </div>
      
-    <a href="https://www.facebook.com/pastacork" target="_blank" style="text-decoration: none;">
+    <a id="link1" href="https://www.facebook.com/pastacork" target="_blank" style="position:relative;top:-20px;opacity:0;text-decoration: none;">
       <img class="img-fluid icon" src="../img/icon_fb.png" style="max-width: 30px; margin:0px 10px;">
     </a>
-    <a href="mailto:ralekzvilla@gmail.com"style="text-decoration: none;">
+    <a id="link2" href="mailto:ralekzvilla@gmail.com"style="position:relative;top:-20px;opacity:0;text-decoration: none;">
       <img class="img-fluid icon" src="../img/icon_email.png" style="max-width: 30px; margin:0px 10px;">
     </a>
-    <a href="https://www.linkedin.com/in/roger-villanueva-22067bb2/" target="_blank"  style="text-decoration: none;">
+    <a id="link3" href="https://www.linkedin.com/in/roger-villanueva-22067bb2/" target="_blank"  style="position:relative;top:-20px;opacity:0;text-decoration: none;">
       <img class="img-fluid icon" src="../img/icon_linkedin.png" style="max-width: 30px; margin:0px 10px;">
     </a>
-    <a href="https://github.com/roger-v" target="_blank"  style="text-decoration: none;">
+    <a id="link4" href="https://github.com/roger-v" target="_blank"  style="position:relative;top:-20px;opacity:0;text-decoration: none;">
       <img class="img-fluid icon" src="../img/icon_github.png" style="max-width: 30px; margin:0px 10px;">
     </a>
    
