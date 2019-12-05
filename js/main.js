@@ -78,11 +78,9 @@ function introAnimations() {
       $("#imroger").animate({opacity:1}, 1000, null, function() {
         $("#introtext").animate({opacity:1}, 2000, null, function() {
           $("#fadinglineintro").animate({opacity:1}, 500, null, function() {
-            $("#link1").animate({opacity:1, top:0}, 250, null, function() {
-              $("#link2").animate({opacity:1, top:0}, 250, null, function() {
-                $("#link3").animate({opacity:1, top:0}, 250, null, function() {
-                  $("#link4").animate({opacity:1, top:0}, 250);
-                });
+            $("#link2").animate({opacity:1, top:0}, 250, null, function() {
+              $("#link3").animate({opacity:1, top:0}, 250, null, function() {
+                $("#link4").animate({opacity:1, top:0}, 250);
               });
             });
           });
